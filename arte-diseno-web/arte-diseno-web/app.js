@@ -1,12 +1,14 @@
 let products=[], cart=JSON.parse(localStorage.getItem('arteCart')||'[]');
 const $=s=>document.querySelector(s); const grid=$('#grid');
+const normalize=s=>(s??'').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
 fetch('products.json').then(r=>r.json()).then(p=>{products=p;render(p);updateCart()});
+function searchable(p){return normalize([p.id,p.name,p.brand,p.gender,p.category,...(p.specs||[])].join(' '))}
 function render(list){grid.innerHTML=list.map(p=>`<article class="card"><img src="${p.images[0]}" alt="${p.name}"><h3>${p.name}</h3><p>${p.brand} · ${p.gender} · Consultar precio</p><div class="actions"><button onclick="view('${p.id}')">Ver producto</button><button onclick="add('${p.id}')">+ Carrito</button></div></article>`).join('')||'<p class="empty">No encontramos productos con esa búsqueda.</p>'}
-function apply(){let q=$('#search').value.toLowerCase().trim();render(products.filter(p=>[p.name,p.brand,p.gender,p.category,...p.specs].join(' ').toLowerCase().includes(q)))}
-$('#search').addEventListener('input',apply);
-$('#search').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();apply();location.hash='productos'}});
-$('#searchBtn').onclick=()=>{apply();location.hash='productos'};
-document.querySelectorAll('[data-filter]').forEach(x=>x.onclick=()=>{$('#search').value=x.dataset.filter;apply();location.hash='productos'});
+function apply(scroll=false){let q=normalize($('#search').value);let words=q.split(/\s+/).filter(Boolean);let list=!words.length?products:products.filter(p=>words.every(w=>searchable(p).includes(w)));render(list);if(scroll)document.querySelector('#productos').scrollIntoView({behavior:'smooth'})}
+$('#search').addEventListener('input',()=>apply(false));
+$('#search').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();apply(true)}});
+$('#searchBtn').onclick=()=>apply(true);
+document.querySelectorAll('[data-filter]').forEach(x=>x.onclick=()=>{$('#search').value=x.dataset.filter;apply(true)});
 function view(id){let p=products.find(x=>x.id===id);$('#modalContent').innerHTML=`<div class="detail"><div><img id="mainImg" class="gallery-main" src="${p.images[0]}"><div class="thumbs">${p.images.map(i=>`<img src="${i}" onclick="mainImg.src=this.src">`).join('')}</div></div><div><p class="eyebrow">${p.brand.toUpperCase()}</p><h2>${p.name}</h2><p>Consultar precio y disponibilidad.</p><ul>${p.specs.map(s=>`<li>${s}</li>`).join('')}</ul><button class="gold" onclick="add('${p.id}')">AÑADIR AL CARRITO</button><br><a class="gold" href="${waLink([p])}">CONSULTAR POR WHATSAPP</a></div></div>`;$('#modal').classList.add('show')}
 function closeModal(){$('#modal').classList.remove('show')}
 function add(id){if(!cart.includes(id))cart.push(id);localStorage.setItem('arteCart',JSON.stringify(cart));updateCart();$('#cart').classList.add('open')}
