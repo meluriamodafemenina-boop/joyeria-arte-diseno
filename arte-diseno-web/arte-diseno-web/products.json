@@ -1,0 +1,366 @@
+[
+  {
+    "id": "casio-edifice-salmon",
+    "name": "Casio Edifice Cronógrafo Salmón",
+    "brand": "Casio",
+    "gender": "Hombre",
+    "category": "Relojes",
+    "images": [
+      "assets/products/casio-edifice-salmon/01.jpeg",
+      "assets/products/casio-edifice-salmon/02.jpeg",
+      "assets/products/casio-edifice-salmon/03.jpeg",
+      "assets/products/casio-edifice-salmon/04.jpeg"
+    ],
+    "specs": [
+      "Cronógrafo analógico",
+      "Acero inoxidable",
+      "Esfera tono salmón",
+      "Consultar precio"
+    ]
+  },
+  {
+    "id": "orient-dorado-negro",
+    "name": "Orient Dorado Esfera Negra",
+    "brand": "Orient",
+    "gender": "Hombre",
+    "category": "Relojes",
+    "images": [
+      "assets/products/orient-dorado-negro/01.jpeg",
+      "assets/products/orient-dorado-negro/02.jpeg",
+      "assets/products/orient-dorado-negro/03.jpeg",
+      "assets/products/orient-dorado-negro/04.jpeg"
+    ],
+    "specs": [
+      "Esfera negra",
+      "Acabado dorado",
+      "Indicador de fecha",
+      "Water Resist indicado en esfera"
+    ]
+  },
+  {
+    "id": "orient-verde",
+    "name": "Orient Dorado Esfera Verde",
+    "brand": "Orient",
+    "gender": "Hombre",
+    "category": "Relojes",
+    "images": [
+      "assets/products/orient-verde/01.jpeg",
+      "assets/products/orient-verde/02.jpeg",
+      "assets/products/orient-verde/03.jpeg",
+      "assets/products/orient-verde/04.jpeg"
+    ],
+    "specs": [
+      "Esfera verde",
+      "Acabado dorado",
+      "Diseño clásico",
+      "Consultar precio"
+    ]
+  },
+  {
+    "id": "orient-champagne",
+    "name": "Orient Dorado Esfera Champagne",
+    "brand": "Orient",
+    "gender": "Hombre",
+    "category": "Relojes",
+    "images": [
+      "assets/products/orient-champagne/01.jpeg",
+      "assets/products/orient-champagne/02.jpeg",
+      "assets/products/orient-champagne/03.jpeg"
+    ],
+    "specs": [
+      "Esfera champagne",
+      "Acabado dorado",
+      "Indicador de fecha",
+      "Water Resist indicado en esfera"
+    ]
+  },
+  {
+    "id": "orient-negro-cuadrados",
+    "name": "Orient Dorado Black Classic",
+    "brand": "Orient",
+    "gender": "Hombre",
+    "category": "Relojes",
+    "images": [
+      "assets/products/orient-negro-cuadrados/01.jpeg",
+      "assets/products/orient-negro-cuadrados/02.jpeg",
+      "assets/products/orient-negro-cuadrados/03.jpeg",
+      "assets/products/orient-negro-cuadrados/04.jpeg"
+    ],
+    "specs": [
+      "Esfera negra",
+      "Marcadores dorados",
+      "Fecha",
+      "Water Resist indicado en esfera"
+    ]
+  },
+  {
+    "id": "orient-rect-verde",
+    "name": "Orient Rectangular Dorado Verde",
+    "brand": "Orient",
+    "gender": "Mujer",
+    "category": "Relojes",
+    "images": [
+      "assets/products/orient-rect-verde/01.jpeg",
+      "assets/products/orient-rect-verde/02.jpeg",
+      "assets/products/orient-rect-verde/03.jpeg"
+    ],
+    "specs": [
+      "Caja rectangular",
+      "Esfera verde",
+      "Acabado dorado",
+      "Japan Mov’t indicado en esfera"
+    ]
+  },
+  {
+    "id": "orient-rect-champagne",
+    "name": "Orient Rectangular Dorado Champagne",
+    "brand": "Orient",
+    "gender": "Mujer",
+    "category": "Relojes",
+    "images": [
+      "assets/products/orient-rect-champagne/01.jpeg",
+      "assets/products/orient-rect-champagne/02.jpeg",
+      "assets/products/orient-rect-champagne/03.jpeg"
+    ],
+    "specs": [
+      "Caja rectangular",
+      "Esfera champagne",
+      "Fecha",
+      "Water Resist indicado en esfera"
+    ]
+  },
+  {
+    "id": "edifice-blanco",
+    "name": "Casio Edifice Cronógrafo Blanco",
+    "brand": "Casio",
+    "gender": "Hombre",
+    "category": "Relojes",
+    "images": [
+      "assets/products/edifice-blanco/01.jpeg",
+      "assets/products/edifice-blanco/02.jpeg",
+      "assets/products/edifice-blanco/03.jpeg"
+    ],
+    "specs": [
+      "Cronógrafo",
+      "Esfera blanca",
+      "WR 100M indicado en esfera",
+      "Brazalete metálico"
+    ]
+  },
+  {
+    "id": "edifice-verde",
+    "name": "Casio Edifice Cronógrafo Verde",
+    "brand": "Casio",
+    "gender": "Hombre",
+    "category": "Relojes",
+    "images": [
+      "assets/products/edifice-verde/01.jpeg",
+      "assets/products/edifice-verde/02.jpeg",
+      "assets/products/edifice-verde/03.jpeg"
+    ],
+    "specs": [
+      "Cronógrafo",
+      "Esfera verde",
+      "WR 100M indicado en esfera",
+      "Brazalete metálico"
+    ]
+  },
+  {
+    "id": "edifice-cafe",
+    "name": "Casio Edifice Cronógrafo Café",
+    "brand": "Casio",
+    "gender": "Hombre",
+    "category": "Relojes",
+    "images": [
+      "assets/products/edifice-cafe/01.jpeg",
+      "assets/products/edifice-cafe/02.jpeg",
+      "assets/products/edifice-cafe/03.jpeg"
+    ],
+    "specs": [
+      "Cronógrafo",
+      "Esfera café",
+      "WR 100M indicado en esfera",
+      "Brazalete metálico"
+    ]
+  },
+  {
+    "id": "gshock-negro",
+    "name": "Casio G-SHOCK Protection Negro",
+    "brand": "Casio",
+    "gender": "Hombre",
+    "category": "Relojes",
+    "images": [
+      "assets/products/gshock-negro/01.jpeg",
+      "assets/products/gshock-negro/02.jpeg",
+      "assets/products/gshock-negro/03.jpeg"
+    ],
+    "specs": [
+      "Analógico + digital",
+      "WR 20 BAR indicado en esfera",
+      "Diseño resistente",
+      "Color negro"
+    ]
+  },
+  {
+    "id": "gshock-blue",
+    "name": "Casio G-SHOCK Black & Blue",
+    "brand": "Casio",
+    "gender": "Hombre",
+    "category": "Relojes",
+    "images": [
+      "assets/products/gshock-blue/01.jpeg",
+      "assets/products/gshock-blue/02.jpeg",
+      "assets/products/gshock-blue/03.jpeg"
+    ],
+    "specs": [
+      "Analógico + digital",
+      "WR 20 BAR indicado en esfera",
+      "Detalles azul turquesa",
+      "Color negro"
+    ]
+  },
+  {
+    "id": "gshock-orange",
+    "name": "Casio G-SHOCK Orange Green",
+    "brand": "Casio",
+    "gender": "Hombre",
+    "category": "Relojes",
+    "images": [
+      "assets/products/gshock-orange/01.jpeg",
+      "assets/products/gshock-orange/02.jpeg",
+      "assets/products/gshock-orange/03.jpeg"
+    ],
+    "specs": [
+      "Analógico + digital",
+      "WR 20 BAR indicado en esfera",
+      "Naranja y verde",
+      "Diseño deportivo"
+    ]
+  },
+  {
+    "id": "tempus-rose",
+    "name": "Tempus Sapphire Rose Gold Bicolor",
+    "brand": "Tempus",
+    "gender": "Mujer",
+    "category": "Relojes",
+    "images": [
+      "assets/products/tempus-rose/01.jpeg",
+      "assets/products/tempus-rose/02.jpeg",
+      "assets/products/tempus-rose/03.jpeg"
+    ],
+    "specs": [
+      "Acabado bicolor",
+      "Detalles tipo cristal",
+      "Sapphire indicado en esfera",
+      "Diseño elegante"
+    ]
+  },
+  {
+    "id": "yess-gold",
+    "name": "YESS Gold Sapphire Coated",
+    "brand": "YESS",
+    "gender": "Mujer",
+    "category": "Relojes",
+    "images": [
+      "assets/products/yess-gold/01.jpeg",
+      "assets/products/yess-gold/02.jpeg",
+      "assets/products/yess-gold/03.jpeg"
+    ],
+    "specs": [
+      "Acabado dorado",
+      "Sapphire Coated indicado en esfera",
+      "Indicador de fecha",
+      "Japan Mov’t indicado en esfera"
+    ]
+  },
+  {
+    "id": "qq-gold",
+    "name": "Q&Q Superior Gold WR 5BAR",
+    "brand": "Q&Q",
+    "gender": "Mujer",
+    "category": "Relojes",
+    "images": [
+      "assets/products/qq-gold/01.jpeg",
+      "assets/products/qq-gold/02.jpeg",
+      "assets/products/qq-gold/03.jpeg"
+    ],
+    "specs": [
+      "Acabado dorado",
+      "WR 5BAR indicado en esfera",
+      "Indicador de fecha",
+      "Diseño clásico"
+    ]
+  },
+  {
+    "id": "qq-bicolor",
+    "name": "Q&Q Superior Elegance Silver & Gold",
+    "brand": "Q&Q",
+    "gender": "Mujer",
+    "category": "Relojes",
+    "images": [
+      "assets/products/qq-bicolor/01.jpeg",
+      "assets/products/qq-bicolor/02.jpeg",
+      "assets/products/qq-bicolor/03.jpeg"
+    ],
+    "specs": [
+      "Acabado bicolor",
+      "Detalles tipo cristal",
+      "Water Resist indicado en esfera",
+      "Diseño femenino"
+    ]
+  },
+  {
+    "id": "orient-mujer-negro",
+    "name": "Orient Golden Black Elegance",
+    "brand": "Orient",
+    "gender": "Mujer",
+    "category": "Relojes",
+    "images": [
+      "assets/products/orient-mujer-negro/01.jpeg",
+      "assets/products/orient-mujer-negro/02.jpeg",
+      "assets/products/orient-mujer-negro/03.jpeg"
+    ],
+    "specs": [
+      "Esfera negra",
+      "Acabado dorado",
+      "Pulsera texturizada",
+      "Diseño elegante"
+    ]
+  },
+  {
+    "id": "orient-mujer-blanco",
+    "name": "Orient Golden White Elegance",
+    "brand": "Orient",
+    "gender": "Mujer",
+    "category": "Relojes",
+    "images": [
+      "assets/products/orient-mujer-blanco/01.jpeg",
+      "assets/products/orient-mujer-blanco/02.jpeg",
+      "assets/products/orient-mujer-blanco/03.jpeg"
+    ],
+    "specs": [
+      "Esfera clara",
+      "Acabado dorado",
+      "Detalles tipo cristal",
+      "Diseño femenino"
+    ]
+  },
+  {
+    "id": "qq-bicolor-date",
+    "name": "Q&Q Superior Bicolor Gold Dial",
+    "brand": "Q&Q",
+    "gender": "Mujer",
+    "category": "Relojes",
+    "images": [
+      "assets/products/qq-bicolor-date/01.jpeg",
+      "assets/products/qq-bicolor-date/02.jpeg",
+      "assets/products/qq-bicolor-date/03.jpeg"
+    ],
+    "specs": [
+      "Acabado bicolor",
+      "Esfera dorada clara",
+      "Indicador de fecha",
+      "Brazalete metálico"
+    ]
+  }
+]
